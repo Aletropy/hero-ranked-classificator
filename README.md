@@ -1,19 +1,18 @@
-# Hero Level Classifier Challenge
+# Hero Ranking Classifier Challenge
 
 ## Overview
 
-This project is a challenge to classify a hero's level based on the amount of experience (XP) they have. By using basic programming constructs like variables, operators and decision structures, the program will determine and display the hero's level according to the XP input.
+This project is a challenge to classify a hero's ranking based on the amount of victories and defeats they have. By using basic programming constructs like variables, operators and decision structures, the program will determine and display the hero's ranking level according to the input.
 
-## XP Classification
+## Ranking Classification
 
-- **Less than 1,000 XP**: Iron
-- **1,001 - 2,000 XP**: Bronze
-- **2,001 - 5,000 XP**: Silver
-- **5,001 - 7,000 XP**: Gold
-- **7,001 - 8,000 XP**: Platinum
-- **8,001 - 9,000 XP**: Ascendant
-- **9,001 - 10,000 XP**: Immortal
-- **10,001 XP or more**: Radiant
+- **Less than 10**: Iron
+- **11 - 20 XP**: Bronze
+- **21 - 50 XP**: Silver
+- **51 - 80 XP**: Gold
+- **81 - 90 XP**: Diamond
+- **91 - 100 XP**: Legendary
+- **101 or more**: Immortal
 
 ## How to Use
 
@@ -23,10 +22,4 @@ This project is a challenge to classify a hero's level based on the amount of ex
 
 ## Example
 
-If a hero has 3,500 XP, their level will be classified as **Silver**.
-
-## Technologies Used
-
-- Variables
-- Conditional Statements
-- Input/Output
+If a hero has 20 victories and 5 defeats, their level will be classified as **Bronze**.
